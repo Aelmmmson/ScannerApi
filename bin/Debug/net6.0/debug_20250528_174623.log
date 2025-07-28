@@ -1,0 +1,4 @@
+[2025-05-28 17:46:23] SetupLogging: Log file initialized at C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\debug_20250528_174623.log
+[2025-05-28 17:46:23] ConnectDevice: Device already opened: STX.STX001
+[2025-05-28 17:46:23] Dispose: Closing resources
+[2025-05-28 17:46:23] Dispose: Closed log file handle

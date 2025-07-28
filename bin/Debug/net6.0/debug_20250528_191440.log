@@ -1,0 +1,41 @@
+[2025-05-28 19:14:40] InitializeLogging: Log file created at C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\debug_20250528_191440.log
+[2025-05-28 19:14:40] FindFirstDevice: Index 1, MTMICRGetDevice returned 0, Device: EXCELLA_ETHER
+[2025-05-28 19:14:40] FindFirstDevice: Index 2, MTMICRGetDevice returned 0, Device: EXCELLA_USB
+[2025-05-28 19:14:40] FindFirstDevice: Index 3, MTMICRGetDevice returned 0, Device: STX_ETHER
+[2025-05-28 19:14:40] FindFirstDevice: Index 4, MTMICRGetDevice returned 0, Device: STX_USB
+[2025-05-28 19:14:40] FindFirstDevice: Index 5, MTMICRGetDevice returned 0, Device: MagTek HQ Test
+[2025-05-28 19:14:40] FindFirstDevice: Index 6, MTMICRGetDevice returned 0, Device: STX.STX001
+[2025-05-28 19:14:40] FindFirstDevice: Index 7, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 19:14:40] FindFirstDevice: Index 8, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 19:14:40] FindFirstDevice: Index 9, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 19:14:40] FindFirstDevice: Index 10, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 19:14:40] FindFirstDevice: Selected device: STX.STX001
+[2025-05-28 19:14:40] GetDeviceStatus: Found device: STX.STX001
+[2025-05-28 19:14:40] GetDeviceStatus: MTMICRQueryInfo returned 0, Response: <?xml version="1.0" encoding="utf-8"?><DeviceInformation>
+<DeviceStatus>
+<AccessGuide>LATCHED</AccessGuide>
+<AutoFeeder>NOTSUP</AutoFeeder>
+<FrontInk>OK</FrontInk>
+<FrontPrinter>PRESENT</FrontPrinter>
+<IDFeeder>EMPTY</IDFeeder>
+<Ink>OK</Ink>
+<LED1>NNNN</LED1>
+<LED2>GGGG</LED2>
+<LED3>NNNN</LED3>
+<Lamp1>OK</Lamp1>
+<Lamp2>OK</Lamp2>
+<ManualFeeder>DOCPRESENT</ManualFeeder>
+<Path>OK</Path>
+<Printer>PRESENT</Printer>
+<RTCBattery>OK</RTCBattery>
+<RawSensors>3</RawSensors>
+<ScanCalibStatus>FACTORY</ScanCalibStatus>
+<SnsrCalibStatus>FACTORY</SnsrCalibStatus>
+<StartTimeout>4000</StartTimeout>
+<State>ONLINE</State>
+</DeviceStatus>
+</DeviceInformation>
+  , Length: 651
+[2025-05-28 19:14:40] GetDeviceStatus: Device is connected
+[2025-05-28 19:14:40] Dispose: Closing resources
+[2025-05-28 19:14:40] Dispose: Closed log file handle

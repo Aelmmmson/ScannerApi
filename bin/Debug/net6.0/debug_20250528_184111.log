@@ -1,0 +1,38 @@
+[2025-05-28 18:41:11] InitializeLogging: Log file created at C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\debug_20250528_184111.log
+[2025-05-28 18:41:11] FindFirstDevice: Index 1, MTMICRGetDevice returned 0, Device: EXCELLA_ETHER
+[2025-05-28 18:41:11] FindFirstDevice: Index 2, MTMICRGetDevice returned 0, Device: EXCELLA_USB
+[2025-05-28 18:41:11] FindFirstDevice: Index 3, MTMICRGetDevice returned 0, Device: STX_ETHER
+[2025-05-28 18:41:11] FindFirstDevice: Index 4, MTMICRGetDevice returned 0, Device: STX_USB
+[2025-05-28 18:41:11] FindFirstDevice: Index 5, MTMICRGetDevice returned 0, Device: MagTek HQ Test
+[2025-05-28 18:41:11] FindFirstDevice: Index 6, MTMICRGetDevice returned 0, Device: STX.STX001
+[2025-05-28 18:41:11] FindFirstDevice: Index 7, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 18:41:11] FindFirstDevice: Index 8, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 18:41:11] FindFirstDevice: Index 9, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 18:41:11] FindFirstDevice: Index 10, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 18:41:11] FindFirstDevice: Selected device: STX.STX001
+[2025-05-28 18:41:11] GetDeviceStatus: Found device: STX.STX001
+[2025-05-28 18:41:11] GetDeviceStatus: MTMICRQueryInfo returned 67, Response: , Length: 4096
+[2025-05-28 18:41:11] GetDeviceStatus: Retrying MTMICRQueryInfo
+[2025-05-28 18:41:11] GetDeviceStatus: MTMICRQueryInfo attempt 2 returned 67, Response: , Length: 4096
+[2025-05-28 18:41:11] GetDeviceStatus: Device is not connected
+[2025-05-28 18:41:11] Dispose: Closing resources
+[2025-05-28 18:41:11] Dispose: Closed log file handle
+[2025-05-28 18:41:11] InitializeLogging: Log file created at C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\debug_20250528_184111.log
+[2025-05-28 18:41:11] FindFirstDevice: Index 1, MTMICRGetDevice returned 0, Device: EXCELLA_ETHER
+[2025-05-28 18:41:11] FindFirstDevice: Index 2, MTMICRGetDevice returned 0, Device: EXCELLA_USB
+[2025-05-28 18:41:11] FindFirstDevice: Index 3, MTMICRGetDevice returned 0, Device: STX_ETHER
+[2025-05-28 18:41:11] FindFirstDevice: Index 4, MTMICRGetDevice returned 0, Device: STX_USB
+[2025-05-28 18:41:11] FindFirstDevice: Index 5, MTMICRGetDevice returned 0, Device: MagTek HQ Test
+[2025-05-28 18:41:11] FindFirstDevice: Index 6, MTMICRGetDevice returned 0, Device: STX.STX001
+[2025-05-28 18:41:11] FindFirstDevice: Index 7, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 18:41:11] FindFirstDevice: Index 8, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 18:41:11] FindFirstDevice: Index 9, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 18:41:11] FindFirstDevice: Index 10, MTMICRGetDevice returned 6, Device: 
+[2025-05-28 18:41:11] FindFirstDevice: Selected device: STX.STX001
+[2025-05-28 18:41:11] GetDeviceStatus: Found device: STX.STX001
+[2025-05-28 18:41:11] GetDeviceStatus: MTMICRQueryInfo returned 67, Response: , Length: 4096
+[2025-05-28 18:41:11] GetDeviceStatus: Retrying MTMICRQueryInfo
+[2025-05-28 18:41:11] GetDeviceStatus: MTMICRQueryInfo attempt 2 returned 67, Response: , Length: 4096
+[2025-05-28 18:41:11] GetDeviceStatus: Device is not connected
+[2025-05-28 18:41:11] Dispose: Closing resources
+[2025-05-28 18:41:11] Dispose: Closed log file handle

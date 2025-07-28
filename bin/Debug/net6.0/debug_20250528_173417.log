@@ -1,0 +1,17 @@
+[2025-05-28 17:34:17] SetupLogging: Log file initialized at C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\debug_20250528_173417.log
+[2025-05-28 17:34:17] GetDeviceList: Index 1, MTMICRGetDevice returned 0, DeviceName: EXCELLA_ETHER
+[2025-05-28 17:34:17] GetDeviceList: Index 2, MTMICRGetDevice returned 0, DeviceName: EXCELLA_USB
+[2025-05-28 17:34:17] GetDeviceList: Index 3, MTMICRGetDevice returned 0, DeviceName: STX_ETHER
+[2025-05-28 17:34:17] GetDeviceList: Index 4, MTMICRGetDevice returned 0, DeviceName: STX_USB
+[2025-05-28 17:34:17] GetDeviceList: Index 5, MTMICRGetDevice returned 0, DeviceName: MagTek HQ Test
+[2025-05-28 17:34:17] GetDeviceList: Index 6, MTMICRGetDevice returned 0, DeviceName: STX.STX001
+[2025-05-28 17:34:17] GetDeviceList: Index 7, MTMICRGetDevice returned 6, DeviceName: 
+[2025-05-28 17:34:17] GetDeviceList: Found 6 devices: EXCELLA_ETHER, EXCELLA_USB, STX_ETHER, STX_USB, MagTek HQ Test, STX.STX001
+[2025-05-28 17:34:17] Dispose: Closing resources
+[2025-05-28 17:34:17] Dispose: Closed log file handle
+[2025-05-28 17:34:17] SetupLogging: Log file initialized at C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\debug_20250528_173417.log
+[2025-05-28 17:34:17] ConnectSpecificDevice: Closed previous device: STX.STX001
+[2025-05-28 17:34:17] ConnectSpecificDevice: MTMICROpenDevice for STX.STX001 returned 0
+[2025-05-28 17:34:17] ConnectSpecificDevice: Device opened successfully: STX.STX001
+[2025-05-28 17:34:17] Dispose: Closing resources
+[2025-05-28 17:34:17] Dispose: Closed log file handle

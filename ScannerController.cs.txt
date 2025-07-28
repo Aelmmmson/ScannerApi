@@ -1,0 +1,476 @@
+using Microsoft.AspNetCore.Mvc;
+   using System;
+   using System.Collections.Generic;
+   using System.Text;
+   using System.Runtime.InteropServices;
+   using System.IO;
+   using Oracle.ManagedDataAccess.Client;
+
+   namespace ScannerApi.Controllers
+   {
+       [ApiController]
+       [Route("api/scanner")]
+       public class ScannerController : ControllerBase
+       {
+           private const int DEFAULT_STRING_BUFFER_SIZE = 4096;
+           private string? g_strLogFileName;
+           private string g_strAppPath = AppDomain.CurrentDomain.BaseDirectory;
+           private int g_hLogFile = -1;
+           private bool m_bDeviceOpened = false;
+           private string m_strCurrentDeviceName = "";
+           private string m_strOptions = new string('\0', 4096);
+           private string m_strDocInfo = "";
+           private readonly string connectionString = "Data Source=192.168.1.213:1521/orclpdb1;User Id=BANKOWNER;Password=pass1234;";
+
+           public ScannerController()
+           {
+               SetupLogging();
+           }
+
+           private void SetupLogging()
+           {
+               g_strLogFileName = Path.Combine(g_strAppPath, "ExcellaLog.txt");
+               g_hLogFile = CreateFile(g_strLogFileName, GENERIC_READ | GENERIC_WRITE,
+                   FILE_SHARE_READ | FILE_SHARE_WRITE, 0, OPEN_ALWAYS, FILE_ATTRIBUTE_NORMAL, 0);
+
+               if (g_hLogFile > 0)
+               {
+                   MTMICRSetLogFileHandle(g_hLogFile);
+               }
+               System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] SetupLogging: Log file initialized at {g_strLogFileName}\n");
+           }
+
+           [HttpGet("status")]
+           public IActionResult GetDeviceStatus()
+           {
+               try
+               {
+                   string? deviceName = GetFirstDevice();
+                   if (string.IsNullOrEmpty(deviceName))
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: No device found.\n");
+                       return Ok(new { connected = false, message = "No device found" });
+                   }
+
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: Found device: {deviceName}\n");
+
+                   // Open the device if not already opened
+                   if (!m_bDeviceOpened || m_strCurrentDeviceName != deviceName)
+                   {
+                       if (m_bDeviceOpened)
+                       {
+                           MTMICRCloseDevice(m_strCurrentDeviceName);
+                           System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: Closed previous device: {m_strCurrentDeviceName}\n");
+                           m_bDeviceOpened = false;
+                       }
+
+                       m_strCurrentDeviceName = deviceName;
+                       int nRetOpen = MTMICROpenDevice(deviceName);
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: MTMICROpenDevice returned {nRetOpen}\n");
+                       if (nRetOpen != MICR_ST_OK)
+                       {
+                           // Try closing and reopening
+                           MTMICRCloseDevice(deviceName);
+                           System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: Retried MTMICRCloseDevice\n");
+                           nRetOpen = MTMICROpenDevice(deviceName);
+                           System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: Retry MTMICROpenDevice returned {nRetOpen}\n");
+                           if (nRetOpen != MICR_ST_OK)
+                           {
+                               return Ok(new { connected = false, message = $"Failed to open device, code: {nRetOpen}" });
+                           }
+                       }
+                       m_bDeviceOpened = true;
+                   }
+
+                   // Query device status with retry
+                   int nResponseLength = DEFAULT_STRING_BUFFER_SIZE;
+                   StringBuilder response = new StringBuilder(DEFAULT_STRING_BUFFER_SIZE);
+                   int nRet = MTMICRQueryInfo(deviceName, "DeviceStatus", response, ref nResponseLength);
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: MTMICRQueryInfo attempt 1 returned {nRet}, Response: {response}, ResponseLength: {nResponseLength}\n");
+
+                   // Retry once if query fails
+                   if (nRet != MICR_ST_OK || string.IsNullOrEmpty(response.ToString()))
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: Retrying MTMICRQueryInfo\n");
+                       nResponseLength = DEFAULT_STRING_BUFFER_SIZE;
+                       response.Clear();
+                       nRet = MTMICRQueryInfo(deviceName, "DeviceStatus", response, ref nResponseLength);
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: MTMICRQueryInfo attempt 2 returned {nRet}, Response: {response}, ResponseLength: {nResponseLength}\n");
+                   }
+
+                   bool isConnected = nRet == MICR_ST_OK && !string.IsNullOrEmpty(response.ToString());
+                   if (isConnected)
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: Device is connected\n");
+                   }
+                   else
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: Device is not connected\n");
+                   }
+
+                   return Ok(new { connected = isConnected, deviceName = deviceName, statusResponse = response.ToString() });
+               }
+               catch (Exception ex)
+               {
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceStatus: Error: {ex.Message}\n");
+                   return StatusCode(500, new { error = $"Error checking device status: {ex.Message}" });
+               }
+           }
+
+           [HttpGet("devices")]
+           public IActionResult GetDeviceList()
+           {
+               try
+               {
+                   List<string> devices = new List<string>();
+                   byte nTotalDev = 1;
+
+                   while (true)
+                   {
+                       StringBuilder strDeviceName = new StringBuilder(256);
+                       int nRetCode = MTMICRGetDevice(nTotalDev++, strDeviceName);
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceList: Index {nTotalDev - 1}, MTMICRGetDevice returned {nRetCode}, DeviceName: {strDeviceName}\n");
+
+                       if (nRetCode == MICR_ST_DEVICE_NOT_FOUND)
+                       {
+                           break;
+                       }
+
+                       if (nRetCode == MICR_ST_OK && !string.IsNullOrEmpty(strDeviceName.ToString()))
+                       {
+                           devices.Add(strDeviceName.ToString());
+                       }
+                   }
+
+                   if (devices.Count == 0)
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceList: No devices found.\n");
+                       return Ok(new { devices = new string[0], message = "No devices found" });
+                   }
+
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceList: Found {devices.Count} devices: {string.Join(", ", devices)}\n");
+                   return Ok(new { devices = devices.ToArray(), message = $"{devices.Count} device(s) found" });
+               }
+               catch (Exception ex)
+               {
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetDeviceList: Error: {ex.Message}\n");
+                   return StatusCode(500, new { error = $"Error retrieving device list: {ex.Message}" });
+               }
+           }
+
+           [HttpPost("connect")]
+           public IActionResult ConnectDevice()
+           {
+               try
+               {
+                   if (m_bDeviceOpened)
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectDevice: Device already opened: {m_strCurrentDeviceName}\n");
+                       return Ok(new { success = true });
+                   }
+
+                   m_strCurrentDeviceName = GetFirstDevice() ?? "";
+                   if (string.IsNullOrEmpty(m_strCurrentDeviceName))
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectDevice: No device found\n");
+                       return BadRequest(new { success = false, message = "No device found" });
+                   }
+
+                   int nRet = MTMICROpenDevice(m_strCurrentDeviceName);
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectDevice: MTMICROpenDevice returned {nRet}\n");
+                   if (nRet == MICR_ST_OK)
+                   {
+                       m_bDeviceOpened = true;
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectDevice: Device opened successfully: {m_strCurrentDeviceName}\n");
+                       return Ok(new { success = true });
+                   }
+                   else
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectDevice: Failed to open device, code: {nRet}\n");
+                       return BadRequest(new { success = false, message = $"Failed to open device, code: {nRet}" });
+                   }
+               }
+               catch (Exception ex)
+               {
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectDevice: Error: {ex.Message}\n");
+                   return StatusCode(500, new { success = false, message = $"Error connecting to device: {ex.Message}" });
+               }
+           }
+
+           [HttpPost("connect/{deviceName}")]
+           public IActionResult ConnectSpecificDevice(string deviceName)
+           {
+               try
+               {
+                   if (m_bDeviceOpened)
+                   {
+                       MTMICRCloseDevice(m_strCurrentDeviceName);
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectSpecificDevice: Closed previous device: {m_strCurrentDeviceName}\n");
+                       m_bDeviceOpened = false;
+                   }
+
+                   if (string.IsNullOrEmpty(deviceName))
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectSpecificDevice: Invalid device name\n");
+                       return BadRequest(new { success = false, message = "Device name is required" });
+                   }
+
+                   m_strCurrentDeviceName = deviceName;
+                   int nRet = MTMICROpenDevice(deviceName);
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectSpecificDevice: MTMICROpenDevice for {deviceName} returned {nRet}\n");
+                   if (nRet == MICR_ST_OK)
+                   {
+                       m_bDeviceOpened = true;
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectSpecificDevice: Device opened successfully: {deviceName}\n");
+                       return Ok(new { success = true });
+                   }
+                   else
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectSpecificDevice: Failed to open device {deviceName}, code: {nRet}\n");
+                       return BadRequest(new { success = false, message = $"Failed to open device {deviceName}, code: {nRet}" });
+                   }
+               }
+               catch (Exception ex)
+               {
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ConnectSpecificDevice: Error: {ex.Message}\n");
+                   return StatusCode(500, new { success = false, message = $"Error connecting to device {deviceName}: {ex.Message}" });
+               }
+           }
+
+           [HttpPost("scan")]
+           public IActionResult ScanVoucher()
+           {
+
+            GetDeviceStatus();
+            if (!m_bDeviceOpened)
+            {
+                System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ScanVoucher: Device not connected\n");
+                return BadRequest(new { success = false, message = "Device not connected" });
+            }
+
+               try
+               {
+                   int nRet = SetupOptions();
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] nRet[{nRet}]: value\n");
+                   if (nRet != MICR_ST_OK)
+                {
+                    System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ScanVoucher: SetupOptions failed, code: {nRet}\n");
+                    return BadRequest(new { success = false, message = "Failed to setup options" });
+                }
+
+                   StringBuilder strResponse = new StringBuilder(DEFAULT_STRING_BUFFER_SIZE);
+                   int nResponseLength = DEFAULT_STRING_BUFFER_SIZE;
+                   nRet = MTMICRProcessCheck(m_strCurrentDeviceName, m_strOptions, strResponse, ref nResponseLength);
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ScanVoucher: MTMICRProcessCheck returned {nRet}, ResponseLength: {nResponseLength}\n");
+
+                   if (nRet == MICR_ST_OK)
+                   {
+                       m_strDocInfo = strResponse.ToString();
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ScanVoucher: DocInfo: {m_strDocInfo}\n");
+                       var voucherData = ExtractVoucherData();
+                       return Ok(voucherData);
+                   }
+                   else
+                   {
+                       System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ScanVoucher: Process check failed, code: {nRet}\n");
+                       return BadRequest(new { success = false, message = $"Process check failed with code {nRet}" });
+                   }
+               }
+               catch (Exception ex)
+               {
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ScanVoucher: Error: {ex.Message}\n");
+                   return StatusCode(500, new { success = false, message = $"Error scanning voucher: {ex.Message}" });
+               }
+           }
+
+           [HttpPost("save")]
+           public IActionResult SaveToDatabase([FromBody] VoucherData voucherData)
+           {
+               if (voucherData == null || string.IsNullOrEmpty(voucherData.VoucherNo))
+               {
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] SaveToDatabase: Invalid voucher data\n");
+                   return BadRequest(new { success = false, message = "Invalid voucher data" });
+               }
+
+               try
+               {
+                   using (var connection = new OracleConnection(connectionString))
+                   {
+                       connection.Open();
+                       string query = "INSERT INTO Vouchers (VoucherNo, VoucherType, MICR_CODE, FrontImage, BackImage) VALUES (:voucherNo, :voucherType, :micrCode, :frontImage, :backImage)";
+                       using (var command = new OracleCommand(query, connection))
+                       {
+                           command.Parameters.Add("voucherNo", OracleDbType.Varchar2).Value = voucherData.VoucherNo ?? "";
+                           command.Parameters.Add("voucherType", OracleDbType.Varchar2).Value = voucherData.VoucherType ?? "";
+                           command.Parameters.Add("micrCode", OracleDbType.Varchar2).Value = voucherData.Micr ?? "";
+                           command.Parameters.Add("frontImage", OracleDbType.Clob).Value = voucherData.FrontImage ?? "";
+                           command.Parameters.Add("backImage", OracleDbType.Clob).Value = voucherData.BackImage ?? "";
+                           command.ExecuteNonQuery();
+                       }
+                   }
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] SaveToDatabase: Saved voucher {voucherData.VoucherNo}\n");
+                   return Ok(new { success = true, message = $"Voucher {voucherData.VoucherNo} saved to database" });
+               }
+               catch (Exception ex)
+               {
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] SaveToDatabase: Error: {ex.Message}\n");
+                   return StatusCode(500, new { success = false, message = $"Error saving to database: {ex.Message}" });
+               }
+           }
+
+           private string? GetFirstDevice()
+           {
+               List<string> devices = new List<string>();
+               for (byte nTotalDev = 1; nTotalDev <= 10; nTotalDev++)
+               {
+                   StringBuilder strDeviceName = new StringBuilder(256);
+                   int nRetCode = MTMICRGetDevice(nTotalDev, strDeviceName);
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetFirstDevice: Index {nTotalDev}, MTMICRGetDevice returned {nRetCode}, DeviceName: {strDeviceName}\n");
+                   if (nRetCode == MICR_ST_OK && !string.IsNullOrEmpty(strDeviceName.ToString()))
+                   {
+                       devices.Add(strDeviceName.ToString());
+                   }
+               }
+
+               // Prioritize STX.STX001
+               string? selectedDevice = devices.Find(d => d == "STX.STX001") ?? devices.FirstOrDefault();
+               if (selectedDevice != null)
+               {
+                   System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetFirstDevice: Selected device: {selectedDevice}\n");
+                   return selectedDevice;
+               }
+
+               System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] GetFirstDevice: No devices found after checking indices.\n");
+               return null;
+           }
+
+           private int SetupOptions(){
+                StringBuilder strOptions = new StringBuilder(DEFAULT_STRING_BUFFER_SIZE);
+                int nActualLength = DEFAULT_STRING_BUFFER_SIZE;
+
+                int nRet = MTMICRSetValue(strOptions, "ProcessOptions", "ReadMICR", "E13B", ref nActualLength);
+                if (nRet != MICR_ST_OK) return nRet;
+
+                nRet = MTMICRSetValue(strOptions, "ProcessOptions", "DocFeed", "MANUAL", ref nActualLength);
+                if (nRet != MICR_ST_OK) return nRet;
+
+                nRet = MTMICRSetValue(strOptions, "ImageOptions", "Number", "1", ref nActualLength);
+                if (nRet != MICR_ST_OK) return nRet;
+
+                nRet = MTMICRSetIndexValue(strOptions, "ImageOptions", "ImageSide", 1, "FRONT", ref nActualLength);
+                if (nRet != MICR_ST_OK) return nRet;
+
+                nRet = MTMICRSetIndexValue(strOptions, "ImageOptions", "ImageColor", 1, "GRAY8", ref nActualLength);
+                if (nRet != MICR_ST_OK) return nRet;
+
+                m_strOptions = strOptions.ToString();
+                System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] SetupOptions: Options set: {m_strOptions}\n");
+                return MICR_ST_OK;
+            }
+            
+           private VoucherData ExtractVoucherData()
+        {
+            StringBuilder strResponse = new StringBuilder(DEFAULT_STRING_BUFFER_SIZE);
+            int nResponseLength = DEFAULT_STRING_BUFFER_SIZE;
+
+            MTMICRGetValue(m_strDocInfo, "DocInfo", "MICRRaw", strResponse, ref nResponseLength);
+            string micr = strResponse.ToString();
+            nResponseLength = DEFAULT_STRING_BUFFER_SIZE;
+
+            MTMICRGetValue(m_strDocInfo, "DocInfo", "MICRSerNum", strResponse, ref nResponseLength);
+            string voucherNo = strResponse.ToString();
+            nResponseLength = DEFAULT_STRING_BUFFER_SIZE;
+
+            MTMICRGetIndexValue(m_strDocInfo, "ImageInfo", "ImageSize", 1, strResponse, ref nResponseLength);
+            int nImageSize = int.TryParse(strResponse.ToString(), out int size) ? size : 0;
+            string? frontImage = null;
+
+            if (nImageSize > 0)
+            {
+                nResponseLength = DEFAULT_STRING_BUFFER_SIZE;
+                MTMICRGetIndexValue(m_strDocInfo, "ImageInfo", "ImageURL", 1, strResponse, ref nResponseLength);
+                string? strImageID = strResponse.ToString();
+                if (!string.IsNullOrEmpty(strImageID))
+                {
+                    byte[] imageBuf = new byte[nImageSize];
+                    MTMICRGetImage(m_strCurrentDeviceName, strImageID, imageBuf, ref nImageSize);
+                    frontImage = Convert.ToBase64String(imageBuf);
+                }
+            }
+
+            var voucherData = new VoucherData
+            {
+                VoucherNo = voucherNo ?? "",
+                VoucherType = "",
+                Micr = micr ?? "",
+                FrontImage = frontImage,
+                BackImage = null
+            };
+            System.IO.File.AppendAllText("debug.log", $"[{DateTime.Now}] ExtractVoucherData: VoucherNo={voucherData.VoucherNo}, Micr={voucherData.Micr}\n");
+            return voucherData;
+        }
+
+           public class VoucherData
+           {
+               public string? VoucherNo { get; set; }
+               public string? VoucherType { get; set; }
+               public string? Micr { get; set; }
+               public string? FrontImage { get; set; }
+               public string? BackImage { get; set; }
+           }
+
+           #region DLL Imports
+           [DllImport("kernel32.dll", SetLastError = true)]
+           static extern int CreateFile(string lpFileName, uint dwDesiredAccess, uint dwShareMode,
+               uint lpSecurityAttributes, uint dwCreationDisposition, uint dwFlagsAndAttributes, int hTemplateFile);
+
+           [DllImport("kernel32.dll", SetLastError = true)]
+           static extern bool CloseHandle(int hHandle);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRGetImage(string strDeviceName, string strImageID, byte[] imageBuf, ref int nBufLength);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRGetDevice(int dwDeviceContext, StringBuilder strDeviceName);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRQueryInfo(string strDeviceName, string strQueryParm, StringBuilder strResponse, ref int nResponseLength);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRSetValue(StringBuilder strOptions, string strSection, string strKey, string strValue, ref int nActualLength);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRGetValue(string strDocInfo, string strSection, string strKey, StringBuilder strResponse, ref int nResponseLength);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRSetIndexValue(StringBuilder strOptions, string strSection, string strKey, int nIndex, string strValue, ref int nActualLength);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRGetIndexValue(string strDocInfo, string strSection, string strKey, int nIndex, StringBuilder strResponse, ref int nResponseLength);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRProcessCheck(string strDeviceName, string strOptions, StringBuilder strResponse, ref int nResponseLength);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRSetLogFileHandle(int hLogHandle);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICROpenDevice(string strDeviceName);
+
+           [DllImport("mtxmlmcr.dll", SetLastError = true)]
+           static extern int MTMICRCloseDevice(string strDeviceName);
+           #endregion
+
+           #region Constants
+           const uint GENERIC_READ = 0x80000000;
+           const uint GENERIC_WRITE = 0x40000000;
+           const uint OPEN_ALWAYS = 4;
+           const uint FILE_SHARE_READ = 0x1;
+           const uint FILE_SHARE_WRITE = 0x2;
+           const uint FILE_ATTRIBUTE_NORMAL = 0x80;
+
+           const short MICR_ST_OK = 0;
+           const short MICR_ST_DEVICE_NOT_FOUND = 6;
+           #endregion
+       }
+   }

@@ -1,0 +1,6 @@
+[2025-05-28 18:43:17] InitializeLogging: Log file created at C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\debug_20250528_184317.log
+[2025-05-28 18:43:17] ConnectSpecificDevice: Closed previous device: STX.STX001
+[2025-05-28 18:43:17] ConnectSpecificDevice: MTMICROpenDevice for STX.STX001 returned 0
+[2025-05-28 18:43:17] ConnectSpecificDevice: Device opened successfully: STX.STX001
+[2025-05-28 18:43:17] Dispose: Closing resources
+[2025-05-28 18:43:17] Dispose: Closed log file handle

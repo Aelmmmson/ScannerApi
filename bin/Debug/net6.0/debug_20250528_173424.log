@@ -1,0 +1,48 @@
+[2025-05-28 17:34:24] SetupLogging: Log file initialized at C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\debug_20250528_173424.log
+[2025-05-28 17:34:24] SetupOptions: Options set with COLOR24: <?xml version="1.0"?>
+<DeviceSettings><Application><Transfer>HTTP</Transfer><DocUnits>ENGLISH</DocUnits></Application><ProcessOptions><DocFeedTimeout>30000</DocFeedTimeout><DocFeed>MANUAL</DocFeed><ReadMICR>E13B</ReadMICR><MICRFmt>6200</MICRFmt></ProcessOptions><ImageOptions><Number>2</Number><ImageSide1>FRONT</ImageSide1><ImageSide2>BACK</ImageSide2><ImageColor1>COLOR24</ImageColor1><ImageColor2>COLOR24</ImageColor2><Resolution1>200x200</Resolution1><Resolution2>200x200</Resolution2><Compression1>JPEG</Compression1><Compression2>JPEG</Compression2><FileType1>JPG</FileType1><FileType2>JPG</FileType2></ImageOptions></DeviceSettings>
+
+[2025-05-28 17:34:24] ScanVoucher: MTMICRProcessCheck returned 0, ResponseLength: 4096
+[2025-05-28 17:34:24] ScanVoucher: DocInfo: <?xml version="1.0" encoding="utf-8"?><DeviceInformation>
+<CommandStatus>
+<BadData>COLOR24</BadData>
+<CheckDS>F</CheckDS>
+<KVErrCnt>3</KVErrCnt>
+<KVErrCode1>154</KVErrCode1>
+<KVErrCode2>151</KVErrCode2>
+<KVErrCode3>151</KVErrCode3>
+<KVErrVal1>MICRFmt</KVErrVal1>
+<KVErrVal2>COLOR24</KVErrVal2>
+<KVErrVal3>COLOR24</KVErrVal3>
+<ResponseType>NONE</ResponseType>
+<ReturnCode>151</ReturnCode>
+<ReturnMsg>Illegal value</ReturnMsg>
+</CommandStatus>
+<DeviceStatus>
+<AccessGuide>LATCHED</AccessGuide>
+<AutoFeeder>NOTSUP</AutoFeeder>
+<FrontInk>OK</FrontInk>
+<FrontPrinter>PRESENT</FrontPrinter>
+<IDFeeder>EMPTY</IDFeeder>
+<Ink>OK</Ink>
+<LED1>NNNN</LED1>
+<LED2>GGGG</LED2>
+<LED3>NNNN</LED3>
+<Lamp1>OK</Lamp1>
+<Lamp2>OK</Lamp2>
+<ManualFeeder>DOCPRESENT</ManualFeeder>
+<Path>OK</Path>
+<Printer>PRESENT</Printer>
+<RTCBattery>OK</RTCBattery>
+<RawSensors>3</RawSensors>
+<ScanCalibStatus>FACTORY</ScanCalibStatus>
+<SnsrCalibStatus>FACTORY</SnsrCalibStatus>
+<StartTimeout>4000</StartTimeout>
+<State>ONLINE</State>
+</DeviceStatus>
+</DeviceInformation>
+  
+[2025-05-28 17:34:24] ExtractVoucherData: VoucherNo=null, MicrLength=0, FrontImageLen=0, BackImageLen=0, IsValid=False
+[2025-05-28 17:34:24] ScanVoucher: Incomplete scan data detected
+[2025-05-28 17:34:24] Dispose: Closing resources
+[2025-05-28 17:34:24] Dispose: Closed log file handle

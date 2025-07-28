@@ -1,0 +1,41 @@
+[2025-05-28 17:52:40] SetupLogging: Log file initialized at C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\debug_20250528_175240.log
+[2025-05-28 17:52:40] GetFirstDevice: Index 1, MTMICRGetDevice returned 0, DeviceName: EXCELLA_ETHER
+[2025-05-28 17:52:40] GetFirstDevice: Index 2, MTMICRGetDevice returned 0, DeviceName: EXCELLA_USB
+[2025-05-28 17:52:40] GetFirstDevice: Index 3, MTMICRGetDevice returned 0, DeviceName: STX_ETHER
+[2025-05-28 17:52:40] GetFirstDevice: Index 4, MTMICRGetDevice returned 0, DeviceName: STX_USB
+[2025-05-28 17:52:40] GetFirstDevice: Index 5, MTMICRGetDevice returned 0, DeviceName: MagTek HQ Test
+[2025-05-28 17:52:40] GetFirstDevice: Index 6, MTMICRGetDevice returned 0, DeviceName: STX.STX001
+[2025-05-28 17:52:40] GetFirstDevice: Index 7, MTMICRGetDevice returned 6, DeviceName: 
+[2025-05-28 17:52:40] GetFirstDevice: Index 8, MTMICRGetDevice returned 6, DeviceName: 
+[2025-05-28 17:52:40] GetFirstDevice: Index 9, MTMICRGetDevice returned 6, DeviceName: 
+[2025-05-28 17:52:40] GetFirstDevice: Index 10, MTMICRGetDevice returned 6, DeviceName: 
+[2025-05-28 17:52:40] GetFirstDevice: Selected device: STX.STX001
+[2025-05-28 17:52:40] GetDeviceStatus: Found device: STX.STX001
+[2025-05-28 17:52:40] GetDeviceStatus: MTMICRQueryInfo attempt 1 returned 0, Response: <?xml version="1.0" encoding="utf-8"?><DeviceInformation>
+<DeviceStatus>
+<AccessGuide>LATCHED</AccessGuide>
+<AutoFeeder>NOTSUP</AutoFeeder>
+<FrontInk>OK</FrontInk>
+<FrontPrinter>PRESENT</FrontPrinter>
+<IDFeeder>EMPTY</IDFeeder>
+<Ink>OK</Ink>
+<LED1>NNNN</LED1>
+<LED2>GGGG</LED2>
+<LED3>NNNN</LED3>
+<Lamp1>OK</Lamp1>
+<Lamp2>OK</Lamp2>
+<ManualFeeder>EMPTY</ManualFeeder>
+<Path>OK</Path>
+<Printer>PRESENT</Printer>
+<RTCBattery>OK</RTCBattery>
+<RawSensors>0</RawSensors>
+<ScanCalibStatus>FACTORY</ScanCalibStatus>
+<SnsrCalibStatus>FACTORY</SnsrCalibStatus>
+<StartTimeout>4000</StartTimeout>
+<State>ONLINE</State>
+</DeviceStatus>
+</DeviceInformation>
+   , ResponseLength: 647
+[2025-05-28 17:52:40] GetDeviceStatus: Device is connected
+[2025-05-28 17:52:40] Dispose: Closing resources
+[2025-05-28 17:52:40] Dispose: Closed log file handle
