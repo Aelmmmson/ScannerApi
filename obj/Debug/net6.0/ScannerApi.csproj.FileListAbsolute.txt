@@ -73,10 +73,11 @@ C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\ne
 C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\obj\Debug\net6.0\ScannerApi.sourcelink.json
+C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\System.Management.dll
+C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Management.dll
 C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\x86\leptonica-1.82.0.dll
-C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\x86\tesseract50.dll
-C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\x64\leptonica-1.82.0.dll
-C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\x64\tesseract50.dll
-C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\SixLabors.ImageSharp.dll
-C:\Users\ander\OneDrive\Desktop\ChequeScannerApp\backend\ScannerApi\bin\Debug\net6.0\Tesseract.dll

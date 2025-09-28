@@ -8,12 +8,6 @@ using Oracle.ManagedDataAccess.Client;
 using System.Threading;
 using System.Linq;
 using Microsoft.AspNetCore.Cors;
-using Tesseract;
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Processing;
-using SixLabors.ImageSharp.PixelFormats;
-using SixLabors.ImageSharp.Advanced;
-using System.Text.RegularExpressions;
 
 namespace ScannerApi.Controllers
 {
@@ -33,7 +27,6 @@ namespace ScannerApi.Controllers
         private string m_strOptions = new string('\0', DEFAULT_STRING_BUFFER_SIZE);
         private string m_strDocInfo = "";
         private readonly string connectionString = "Data Source=10.203.14.169:9534/USGL;User Id=XVSCAN;Password=pass1234;";
-        private readonly string tessDataPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tessdata");
         private bool disposed = false;
         private readonly StreamWriter? logWriter;
         private readonly object logLock = new object();
@@ -56,11 +49,6 @@ namespace ScannerApi.Controllers
                 {
                     Directory.CreateDirectory(imageSavePath);
                     LogMessage($"Constructor: Created image save directory at {imageSavePath}");
-                }
-                if (!Directory.Exists(tessDataPath))
-                {
-                    Directory.CreateDirectory(tessDataPath);
-                    LogMessage($"Constructor: Created tessdata directory at {tessDataPath}");
                 }
                 logWriter = new StreamWriter(logPath, append: true) { AutoFlush = true };
                 LogMessage("SetupLogging: Log file initialized at " + logPath);
@@ -1270,129 +1258,18 @@ namespace ScannerApi.Controllers
                     }
                 }
 
-                // OCR Processing for Handwritten and Printed Fields
+                // Save raw front image if available
                 if (frontImageBuf != null)
                 {
                     try
                     {
-                        using (var engine = new TesseractEngine(tessDataPath, "eng", EngineMode.TesseractOnly))
-                        {
-                            using (var ms = new MemoryStream(frontImageBuf))
-                            {
-                                ms.Seek(0, SeekOrigin.Begin); // Rewind stream
-                                using (var image = Image.Load(ms))
-                                {
-                                    LogMessage($"ExtractVoucherData: Loaded image - Width: {image.Width}, Height: {image.Height}");
-
-                                    // Crop Left Section for Amount in Words
-                                    int leftCropWidth = image.Width / 3; // 1/3 width
-                                    int leftCropHeight = image.Height;
-                                    using (var leftMs = new MemoryStream())
-                                    {
-                                        image.Clone(ctx => ctx
-                                            .Crop(new Rectangle(0, 0, leftCropWidth, leftCropHeight))
-                                            .Grayscale()
-                                            .Contrast(2.0f)
-                                            .BinaryThreshold(0.4f))
-                                            .SaveAsJpeg(leftMs);
-                                        byte[] leftCroppedImage = leftMs.ToArray();
-                                        System.IO.File.WriteAllBytes(Path.Combine(imageSavePath, $"left_{timestamp}.jpg"), leftCroppedImage);
-                                        LogMessage($"ExtractVoucherData: Saved left section crop to left_{timestamp}.jpg");
-
-                                        using (var leftPix = Pix.LoadFromMemory(leftCroppedImage))
-                                        using (var leftPage = engine.Process(leftPix))
-                                        {
-                                            string leftOcrText = leftPage.GetText().Trim();
-                                            LogMessage($"ExtractVoucherData: Left OCR Text: {leftOcrText}");
-                                            var amountWordsMatch = Regex.Match(leftOcrText, @"Pay\s+([A-Za-z\s]+)\s+(GH₵|Dollars|Only)", RegexOptions.IgnoreCase);
-                                            amountWords = amountWordsMatch.Success ? amountWordsMatch.Groups[1].Value.Trim() : "";
-                                            LogMessage($"ExtractVoucherData: Parsed AmountWords: {amountWords}");
-                                        }
-                                    }
-
-                                    // Crop Right Section for Date, Amount Figures, Account Holder, and Signature
-                                    int rightCropX = image.Width / 3; // 1/3 width
-                                    int rightCropWidth = image.Width - rightCropX; // 2/3 width
-                                    int rightCropHeight = image.Height - 40; // Leave 20px top/bottom margin
-                                    using (var rightMs = new MemoryStream())
-                                    {
-                                        image.Clone(ctx => ctx
-                                            .Crop(new Rectangle(rightCropX, 0, rightCropWidth, rightCropHeight))
-                                            .Grayscale()
-                                            .Contrast(2.0f)
-                                            .BinaryThreshold(0.4f))
-                                            .SaveAsJpeg(rightMs);
-                                        byte[] rightCroppedImage = rightMs.ToArray();
-                                        System.IO.File.WriteAllBytes(Path.Combine(imageSavePath, $"right_{timestamp}.jpg"), rightCroppedImage);
-                                        LogMessage($"ExtractVoucherData: Saved right section crop to right_{timestamp}.jpg");
-
-                                        using (var rightPix = Pix.LoadFromMemory(rightCroppedImage))
-                                        using (var rightPage = engine.Process(rightPix))
-                                        {
-                                            string rightOcrText = rightPage.GetText().Trim();
-                                            LogMessage($"ExtractVoucherData: Right OCR Text: {rightOcrText}");
-
-                                            // Parse Date (DD / MM / YYYY)
-                                            var dateMatch = Regex.Match(rightOcrText, @"\b(\d{2}\s*/\s*\d{2}\s*/\s*\d{4})\b");
-                                            checkDate = dateMatch.Success ? dateMatch.Groups[1].Value : "";
-                                            LogMessage($"ExtractVoucherData: Parsed CheckDate: {checkDate}");
-
-                                            // Parse Amount (e.g., GH₵ 2000.00)
-                                            var amountMatch = Regex.Match(rightOcrText, @"GH₵\s*(\d+\.\d{2})|\b(\d+\.\d{2})\b");
-                                            amount = amountMatch.Success ? (amountMatch.Groups[1].Success ? "GH₵ " + amountMatch.Groups[1].Value : amountMatch.Groups[2].Value) : "";
-                                            LogMessage($"ExtractVoucherData: Parsed Amount: {amount}");
-
-                                            // Parse Account Holder (after amount)
-                                            var lines = rightOcrText.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
-                                            bool foundAmount = false;
-                                            foreach (var line in lines)
-                                            {
-                                                if (Regex.IsMatch(line, @"GH₵\s*\d+\.\d{2}|\d+\.\d{2}"))
-                                                {
-                                                    foundAmount = true;
-                                                    continue;
-                                                }
-                                                if (foundAmount && !string.IsNullOrWhiteSpace(line) && !line.ToLower().Contains("signature"))
-                                                {
-                                                    accountHolder = line.Trim();
-                                                    LogMessage($"ExtractVoucherData: Parsed AccountHolder: {accountHolder}");
-                                                    break;
-                                                }
-                                            }
-                                        }
-
-                                        // Crop Signature (bottom 15% of right section)
-                                        int sigY = (int)(rightCropHeight * 0.85); // 85% from top
-                                        int sigHeight = rightCropHeight - sigY - 10;
-                                        using (var sigMs = new MemoryStream())
-                                        {
-                                            image.Clone(ctx => ctx
-                                                .Crop(new Rectangle(rightCropX, sigY, rightCropWidth, sigHeight))
-                                                .Grayscale()
-                                                .Contrast(2.0f)
-                                                .BinaryThreshold(0.4f))
-                                                .SaveAsJpeg(sigMs);
-                                            byte[] sigImage = sigMs.ToArray();
-                                            System.IO.File.WriteAllBytes(Path.Combine(imageSavePath, $"signature_{timestamp}.jpg"), sigImage);
-                                            LogMessage($"ExtractVoucherData: Saved signature crop to signature_{timestamp}.jpg");
-                                            signature = Convert.ToBase64String(sigImage);
-                                            LogMessage($"ExtractVoucherData: Signature Base64 length={signature.Length}");
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                        frontImagePath = Path.Combine(imageSavePath, $"raw_front_{timestamp}.jpg");
+                        System.IO.File.WriteAllBytes(frontImagePath, frontImageBuf);
+                        LogMessage($"ExtractVoucherData: Saved raw front image to {frontImagePath}");
                     }
                     catch (Exception ex)
                     {
-                        LogMessage($"ExtractVoucherData: OCR/Signature processing error: {ex.Message}, StackTrace: {ex.StackTrace}");
-                        System.IO.File.WriteAllBytes(Path.Combine(imageSavePath, $"raw_front_{timestamp}.jpg"), frontImageBuf);
-                        LogMessage($"ExtractVoucherData: Saved raw front image to raw_front_{timestamp}.jpg");
-                        checkDate = "";
-                        amount = "";
-                        amountWords = "";
-                        accountHolder = "";
-                        signature = "";
+                        LogMessage($"ExtractVoucherData: Error saving raw front image: {ex.Message}, StackTrace: {ex.StackTrace}");
                     }
                 }
 

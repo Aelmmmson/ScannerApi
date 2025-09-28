@@ -1,0 +1,3321 @@
+[{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'CreateFile' does not exist in the current context",
+	"startLineNumber": 101,
+	"startColumn": 26,
+	"endLineNumber": 101,
+	"endColumn": 36,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'GENERIC_READ' does not exist in the current context",
+	"startLineNumber": 101,
+	"startColumn": 55,
+	"endLineNumber": 101,
+	"endColumn": 67,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'GENERIC_WRITE' does not exist in the current context",
+	"startLineNumber": 101,
+	"startColumn": 70,
+	"endLineNumber": 101,
+	"endColumn": 83,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'FILE_SHARE_READ' does not exist in the current context",
+	"startLineNumber": 102,
+	"startColumn": 17,
+	"endLineNumber": 102,
+	"endColumn": 32,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'FILE_SHARE_WRITE' does not exist in the current context",
+	"startLineNumber": 102,
+	"startColumn": 35,
+	"endLineNumber": 102,
+	"endColumn": 51,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'OPEN_ALWAYS' does not exist in the current context",
+	"startLineNumber": 102,
+	"startColumn": 56,
+	"endLineNumber": 102,
+	"endColumn": 67,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'FILE_ATTRIBUTE_NORMAL' does not exist in the current context",
+	"startLineNumber": 102,
+	"startColumn": 69,
+	"endLineNumber": 102,
+	"endColumn": 90,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetLogFileHandle' does not exist in the current context",
+	"startLineNumber": 106,
+	"startColumn": 17,
+	"endLineNumber": 106,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'CloseHandle' does not exist in the current context",
+	"startLineNumber": 157,
+	"startColumn": 21,
+	"endLineNumber": 157,
+	"endColumn": 32,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRCloseDevice' does not exist in the current context",
+	"startLineNumber": 164,
+	"startColumn": 21,
+	"endLineNumber": 164,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRCloseDevice' does not exist in the current context",
+	"startLineNumber": 230,
+	"startColumn": 25,
+	"endLineNumber": 230,
+	"endColumn": 42,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICROpenDevice' does not exist in the current context",
+	"startLineNumber": 236,
+	"startColumn": 36,
+	"endLineNumber": 236,
+	"endColumn": 52,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 238,
+	"startColumn": 37,
+	"endLineNumber": 238,
+	"endColumn": 47,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRCloseDevice' does not exist in the current context",
+	"startLineNumber": 240,
+	"startColumn": 25,
+	"endLineNumber": 240,
+	"endColumn": 42,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICROpenDevice' does not exist in the current context",
+	"startLineNumber": 242,
+	"startColumn": 36,
+	"endLineNumber": 242,
+	"endColumn": 52,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 244,
+	"startColumn": 41,
+	"endLineNumber": 244,
+	"endColumn": 51,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRQueryInfo' does not exist in the current context",
+	"startLineNumber": 254,
+	"startColumn": 28,
+	"endLineNumber": 254,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 257,
+	"startColumn": 29,
+	"endLineNumber": 257,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRQueryInfo' does not exist in the current context",
+	"startLineNumber": 262,
+	"startColumn": 28,
+	"endLineNumber": 262,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 266,
+	"startColumn": 44,
+	"endLineNumber": 266,
+	"endColumn": 54,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetDevice' does not exist in the current context",
+	"startLineNumber": 293,
+	"startColumn": 40,
+	"endLineNumber": 293,
+	"endColumn": 55,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_DEVICE_NOT_FOUND' does not exist in the current context",
+	"startLineNumber": 296,
+	"startColumn": 41,
+	"endLineNumber": 296,
+	"endColumn": 65,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 302,
+	"startColumn": 41,
+	"endLineNumber": 302,
+	"endColumn": 51,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICROpenDevice' does not exist in the current context",
+	"startLineNumber": 357,
+	"startColumn": 28,
+	"endLineNumber": 357,
+	"endColumn": 44,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 359,
+	"startColumn": 29,
+	"endLineNumber": 359,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRCloseDevice' does not exist in the current context",
+	"startLineNumber": 385,
+	"startColumn": 21,
+	"endLineNumber": 385,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICROpenDevice' does not exist in the current context",
+	"startLineNumber": 397,
+	"startColumn": 28,
+	"endLineNumber": 397,
+	"endColumn": 44,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 399,
+	"startColumn": 29,
+	"endLineNumber": 399,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICROpenDevice' does not exist in the current context",
+	"startLineNumber": 433,
+	"startColumn": 36,
+	"endLineNumber": 433,
+	"endColumn": 52,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 435,
+	"startColumn": 37,
+	"endLineNumber": 435,
+	"endColumn": 47,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRCloseDevice' does not exist in the current context",
+	"startLineNumber": 437,
+	"startColumn": 25,
+	"endLineNumber": 437,
+	"endColumn": 42,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICROpenDevice' does not exist in the current context",
+	"startLineNumber": 439,
+	"startColumn": 36,
+	"endLineNumber": 439,
+	"endColumn": 52,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 441,
+	"startColumn": 41,
+	"endLineNumber": 441,
+	"endColumn": 51,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRCloseDevice' does not exist in the current context",
+	"startLineNumber": 454,
+	"startColumn": 21,
+	"endLineNumber": 454,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICROpenDevice' does not exist in the current context",
+	"startLineNumber": 457,
+	"startColumn": 36,
+	"endLineNumber": 457,
+	"endColumn": 52,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 459,
+	"startColumn": 37,
+	"endLineNumber": 459,
+	"endColumn": 47,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 475,
+	"startColumn": 29,
+	"endLineNumber": 475,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRProcessCheck' does not exist in the current context",
+	"startLineNumber": 490,
+	"startColumn": 28,
+	"endLineNumber": 490,
+	"endColumn": 46,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 493,
+	"startColumn": 33,
+	"endLineNumber": 493,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 515,
+	"startColumn": 29,
+	"endLineNumber": 515,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_INVALID_FEED_TYPE' does not exist in the current context",
+	"startLineNumber": 517,
+	"startColumn": 33,
+	"endLineNumber": 517,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 534,
+	"startColumn": 24,
+	"endLineNumber": 534,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 559,
+	"startColumn": 56,
+	"endLineNumber": 559,
+	"endColumn": 67,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0019",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0019)"
+		}
+	},
+	"severity": 8,
+	"message": "Operator '==' cannot be applied to operands of type 'VoucherData?' and '<null>'",
+	"startLineNumber": 562,
+	"startColumn": 17,
+	"endLineNumber": 562,
+	"endColumn": 36,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'voucherNo' and no accessible extension method 'voucherNo' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 573,
+	"startColumn": 78,
+	"endLineNumber": 573,
+	"endColumn": 87,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'frontImage' and no accessible extension method 'frontImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 575,
+	"startColumn": 55,
+	"endLineNumber": 575,
+	"endColumn": 65,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'frontImage' and no accessible extension method 'frontImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 577,
+	"startColumn": 52,
+	"endLineNumber": 577,
+	"endColumn": 62,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'frontImage' and no accessible extension method 'frontImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 579,
+	"startColumn": 98,
+	"endLineNumber": 579,
+	"endColumn": 108,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'frontImage' and no accessible extension method 'frontImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 579,
+	"startColumn": 147,
+	"endLineNumber": 579,
+	"endColumn": 157,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'frontImage' and no accessible extension method 'frontImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 584,
+	"startColumn": 80,
+	"endLineNumber": 584,
+	"endColumn": 90,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'backImage' and no accessible extension method 'backImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 603,
+	"startColumn": 55,
+	"endLineNumber": 603,
+	"endColumn": 64,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'backImage' and no accessible extension method 'backImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 605,
+	"startColumn": 52,
+	"endLineNumber": 605,
+	"endColumn": 61,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'backImage' and no accessible extension method 'backImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 607,
+	"startColumn": 97,
+	"endLineNumber": 607,
+	"endColumn": 106,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'backImage' and no accessible extension method 'backImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 607,
+	"startColumn": 145,
+	"endLineNumber": 607,
+	"endColumn": 154,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'backImage' and no accessible extension method 'backImage' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 612,
+	"startColumn": 79,
+	"endLineNumber": 612,
+	"endColumn": 88,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'voucherNo' and no accessible extension method 'voucherNo' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 642,
+	"startColumn": 127,
+	"endLineNumber": 642,
+	"endColumn": 136,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'voucherNo' and no accessible extension method 'voucherNo' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 642,
+	"startColumn": 167,
+	"endLineNumber": 642,
+	"endColumn": 176,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'narration' and no accessible extension method 'narration' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 645,
+	"startColumn": 129,
+	"endLineNumber": 645,
+	"endColumn": 138,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'narration' and no accessible extension method 'narration' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 645,
+	"startColumn": 169,
+	"endLineNumber": 645,
+	"endColumn": 178,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'voucherNo' and no accessible extension method 'voucherNo' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 651,
+	"startColumn": 104,
+	"endLineNumber": 651,
+	"endColumn": 113,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'voucherNo' and no accessible extension method 'voucherNo' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 654,
+	"startColumn": 114,
+	"endLineNumber": 654,
+	"endColumn": 123,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'voucherNo' and no accessible extension method 'voucherNo' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 658,
+	"startColumn": 90,
+	"endLineNumber": 658,
+	"endColumn": 99,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS1061",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1061)"
+		}
+	},
+	"severity": 8,
+	"message": "'VoucherData?' does not contain a definition for 'voucherNo' and no accessible extension method 'voucherNo' accepting a first argument of type 'VoucherData?' could be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 659,
+	"startColumn": 86,
+	"endLineNumber": 659,
+	"endColumn": 95,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 709,
+	"startColumn": 55,
+	"endLineNumber": 709,
+	"endColumn": 66,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetDevice' does not exist in the current context",
+	"startLineNumber": 823,
+	"startColumn": 36,
+	"endLineNumber": 823,
+	"endColumn": 51,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 825,
+	"startColumn": 37,
+	"endLineNumber": 825,
+	"endColumn": 47,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_DEVICE_NOT_FOUND' does not exist in the current context",
+	"startLineNumber": 834,
+	"startColumn": 42,
+	"endLineNumber": 834,
+	"endColumn": 66,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 865,
+	"startColumn": 24,
+	"endLineNumber": 865,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 866,
+	"startColumn": 29,
+	"endLineNumber": 866,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 871,
+	"startColumn": 24,
+	"endLineNumber": 871,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 872,
+	"startColumn": 29,
+	"endLineNumber": 872,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 877,
+	"startColumn": 24,
+	"endLineNumber": 877,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 878,
+	"startColumn": 29,
+	"endLineNumber": 878,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 886,
+	"startColumn": 24,
+	"endLineNumber": 886,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 887,
+	"startColumn": 29,
+	"endLineNumber": 887,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 893,
+	"startColumn": 24,
+	"endLineNumber": 893,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 894,
+	"startColumn": 29,
+	"endLineNumber": 894,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 900,
+	"startColumn": 24,
+	"endLineNumber": 900,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 901,
+	"startColumn": 29,
+	"endLineNumber": 901,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 907,
+	"startColumn": 24,
+	"endLineNumber": 907,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 908,
+	"startColumn": 29,
+	"endLineNumber": 908,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 914,
+	"startColumn": 24,
+	"endLineNumber": 914,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 915,
+	"startColumn": 29,
+	"endLineNumber": 915,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 921,
+	"startColumn": 24,
+	"endLineNumber": 921,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 922,
+	"startColumn": 29,
+	"endLineNumber": 922,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 928,
+	"startColumn": 24,
+	"endLineNumber": 928,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 929,
+	"startColumn": 29,
+	"endLineNumber": 929,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 935,
+	"startColumn": 24,
+	"endLineNumber": 935,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 936,
+	"startColumn": 29,
+	"endLineNumber": 936,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 942,
+	"startColumn": 24,
+	"endLineNumber": 942,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 943,
+	"startColumn": 29,
+	"endLineNumber": 943,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 949,
+	"startColumn": 24,
+	"endLineNumber": 949,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 950,
+	"startColumn": 29,
+	"endLineNumber": 950,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 956,
+	"startColumn": 24,
+	"endLineNumber": 956,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 957,
+	"startColumn": 29,
+	"endLineNumber": 957,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 963,
+	"startColumn": 24,
+	"endLineNumber": 963,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 964,
+	"startColumn": 29,
+	"endLineNumber": 964,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 970,
+	"startColumn": 24,
+	"endLineNumber": 970,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 971,
+	"startColumn": 29,
+	"endLineNumber": 971,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 977,
+	"startColumn": 24,
+	"endLineNumber": 977,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 978,
+	"startColumn": 29,
+	"endLineNumber": 978,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetIndexValue' does not exist in the current context",
+	"startLineNumber": 984,
+	"startColumn": 24,
+	"endLineNumber": 984,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 985,
+	"startColumn": 29,
+	"endLineNumber": 985,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 991,
+	"startColumn": 24,
+	"endLineNumber": 991,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 992,
+	"startColumn": 29,
+	"endLineNumber": 992,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRSetValue' does not exist in the current context",
+	"startLineNumber": 998,
+	"startColumn": 24,
+	"endLineNumber": 998,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 999,
+	"startColumn": 29,
+	"endLineNumber": 999,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_INVALID_FEED_TYPE' does not exist in the current context",
+	"startLineNumber": 1008,
+	"startColumn": 24,
+	"endLineNumber": 1008,
+	"endColumn": 49,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 1013,
+	"startColumn": 20,
+	"endLineNumber": 1013,
+	"endColumn": 30,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 1016,
+	"startColumn": 28,
+	"endLineNumber": 1016,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0826",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0826)"
+		}
+	},
+	"severity": 8,
+	"message": "No best type found for implicitly-typed array",
+	"startLineNumber": 1028,
+	"startColumn": 37,
+	"endLineNumber": 1039,
+	"endColumn": 30,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 1056,
+	"startColumn": 32,
+	"endLineNumber": 1056,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 1074,
+	"startColumn": 48,
+	"endLineNumber": 1074,
+	"endColumn": 59,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 1094,
+	"startColumn": 44,
+	"endLineNumber": 1094,
+	"endColumn": 55,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 1101,
+	"startColumn": 28,
+	"endLineNumber": 1101,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 1106,
+	"startColumn": 28,
+	"endLineNumber": 1106,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 1110,
+	"startColumn": 17,
+	"endLineNumber": 1110,
+	"endColumn": 28,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0161",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0161)"
+		}
+	},
+	"severity": 8,
+	"message": "'ScannerController.ExtractVoucherData()': not all code paths return a value",
+	"startLineNumber": 1110,
+	"startColumn": 29,
+	"endLineNumber": 1110,
+	"endColumn": 47,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1155,
+	"startColumn": 28,
+	"endLineNumber": 1155,
+	"endColumn": 42,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1161,
+	"startColumn": 24,
+	"endLineNumber": 1161,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1167,
+	"startColumn": 24,
+	"endLineNumber": 1167,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1173,
+	"startColumn": 24,
+	"endLineNumber": 1173,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1179,
+	"startColumn": 24,
+	"endLineNumber": 1179,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1185,
+	"startColumn": 24,
+	"endLineNumber": 1185,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1191,
+	"startColumn": 24,
+	"endLineNumber": 1191,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1197,
+	"startColumn": 24,
+	"endLineNumber": 1197,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1203,
+	"startColumn": 24,
+	"endLineNumber": 1203,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1209,
+	"startColumn": 24,
+	"endLineNumber": 1209,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1215,
+	"startColumn": 24,
+	"endLineNumber": 1215,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1221,
+	"startColumn": 24,
+	"endLineNumber": 1221,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1227,
+	"startColumn": 24,
+	"endLineNumber": 1227,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1233,
+	"startColumn": 24,
+	"endLineNumber": 1233,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1239,
+	"startColumn": 24,
+	"endLineNumber": 1239,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1245,
+	"startColumn": 24,
+	"endLineNumber": 1245,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0246",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0246)"
+		}
+	},
+	"severity": 8,
+	"message": "The type or namespace name 'VoucherData' could not be found (are you missing a using directive or an assembly reference?)",
+	"startLineNumber": 1251,
+	"startColumn": 28,
+	"endLineNumber": 1251,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1298,
+	"startColumn": 28,
+	"endLineNumber": 1298,
+	"endColumn": 42,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1325,
+	"startColumn": 24,
+	"endLineNumber": 1325,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetValue' does not exist in the current context",
+	"startLineNumber": 1331,
+	"startColumn": 24,
+	"endLineNumber": 1331,
+	"endColumn": 38,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetIndexValue' does not exist in the current context",
+	"startLineNumber": 1343,
+	"startColumn": 28,
+	"endLineNumber": 1343,
+	"endColumn": 47,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 1344,
+	"startColumn": 33,
+	"endLineNumber": 1344,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetIndexValue' does not exist in the current context",
+	"startLineNumber": 1358,
+	"startColumn": 32,
+	"endLineNumber": 1358,
+	"endColumn": 51,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 1359,
+	"startColumn": 37,
+	"endLineNumber": 1359,
+	"endColumn": 47,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetImage' does not exist in the current context",
+	"startLineNumber": 1375,
+	"startColumn": 36,
+	"endLineNumber": 1375,
+	"endColumn": 50,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 1377,
+	"startColumn": 41,
+	"endLineNumber": 1377,
+	"endColumn": 51,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetIndexValue' does not exist in the current context",
+	"startLineNumber": 1592,
+	"startColumn": 28,
+	"endLineNumber": 1592,
+	"endColumn": 47,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 1593,
+	"startColumn": 33,
+	"endLineNumber": 1593,
+	"endColumn": 43,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetIndexValue' does not exist in the current context",
+	"startLineNumber": 1607,
+	"startColumn": 32,
+	"endLineNumber": 1607,
+	"endColumn": 51,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 1608,
+	"startColumn": 37,
+	"endLineNumber": 1608,
+	"endColumn": 47,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MTMICRGetImage' does not exist in the current context",
+	"startLineNumber": 1624,
+	"startColumn": 36,
+	"endLineNumber": 1624,
+	"endColumn": 50,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS0103",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS0103)"
+		}
+	},
+	"severity": 8,
+	"message": "The name 'MICR_ST_OK' does not exist in the current context",
+	"startLineNumber": 1626,
+	"startColumn": 41,
+	"endLineNumber": 1626,
+	"endColumn": 51,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1039",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1039)"
+		}
+	},
+	"severity": 8,
+	"message": "Unterminated string literal",
+	"startLineNumber": 1633,
+	"startColumn": 68,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1026",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1026)"
+		}
+	},
+	"severity": 8,
+	"message": ") expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1002",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1002)"
+		}
+	},
+	"severity": 8,
+	"message": "; expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1513",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1513)"
+		}
+	},
+	"severity": 8,
+	"message": "} expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1513",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1513)"
+		}
+	},
+	"severity": 8,
+	"message": "} expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1513",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1513)"
+		}
+	},
+	"severity": 8,
+	"message": "} expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1513",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1513)"
+		}
+	},
+	"severity": 8,
+	"message": "} expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1513",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1513)"
+		}
+	},
+	"severity": 8,
+	"message": "} expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1513",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1513)"
+		}
+	},
+	"severity": 8,
+	"message": "} expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1513",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1513)"
+		}
+	},
+	"severity": 8,
+	"message": "} expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1513",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1513)"
+		}
+	},
+	"severity": 8,
+	"message": "} expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "syntax",
+	"code": {
+		"value": "CS1513",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS1513)"
+		}
+	},
+	"severity": 8,
+	"message": "} expected",
+	"startLineNumber": 1633,
+	"startColumn": 69,
+	"endLineNumber": 1633,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS8618",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS8618)"
+		}
+	},
+	"severity": 4,
+	"message": "Non-nullable field '_httpClient' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.",
+	"startLineNumber": 60,
+	"startColumn": 16,
+	"endLineNumber": 60,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS8618",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS8618)"
+		}
+	},
+	"severity": 4,
+	"message": "Non-nullable field '_geminiApiKey' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable.",
+	"startLineNumber": 60,
+	"startColumn": 16,
+	"endLineNumber": 60,
+	"endColumn": 33,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS8601",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS8601)"
+		}
+	},
+	"severity": 4,
+	"message": "Possible null reference assignment.",
+	"startLineNumber": 83,
+	"startColumn": 33,
+	"endLineNumber": 83,
+	"endColumn": 120,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/ander/OneDrive/Desktop/ChequeScannerApp/backend/ScannerApi/Controllers/ScannerController.cs",
+	"owner": "DocumentCompilerSemantic",
+	"code": {
+		"value": "CS8604",
+		"target": {
+			"$mid": 1,
+			"path": "/query/roslyn.query",
+			"scheme": "https",
+			"authority": "msdn.microsoft.com",
+			"query": "appId=roslyn&k=k(CS8604)"
+		}
+	},
+	"severity": 4,
+	"message": "Possible null reference argument for parameter 'json' in 'JsonElement JsonSerializer.Deserialize<JsonElement>(string json, JsonSerializerOptions? options = null)'.",
+	"startLineNumber": 1073,
+	"startColumn": 93,
+	"endLineNumber": 1073,
+	"endColumn": 109,
+	"origin": "extHost1"
+}]
